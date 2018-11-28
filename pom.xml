@@ -29,7 +29,7 @@
                             <transformers>
                                 <transformer
                                     implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>Teslte.HelloTeste</mainClass>
+                                    <mainClass>Teste.HelloTeste</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
