@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.springframework</groupId>
-    <artifactId>gs-maven</artifactId>
+    <artifactId>MeuPrimeiroTesteJava</artifactId>
     <packaging>jar</packaging>
     <version>0.1.0</version>
 
@@ -46,7 +46,7 @@
         </repository>        
         <snapshotRepository>
             <id>deployment</id>
-            <name> Internal Releases</name>
+            <name>Internal Releases</name>
             <url>  </url>            
         </snapshotRepository>
     </distributionManagement>
