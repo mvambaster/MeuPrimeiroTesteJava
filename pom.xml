@@ -14,27 +14,13 @@
     </properties>
 
     <build>
-        <plugin>
-      <executions>
-      <execution>
-         <id>default-deploy</id>
-         <phase>deploy</phase>
-         <goals>
-            <goal>deploy</goal>
-         </goals>
-      </execution>
-   </executions>
-   <configuration>
-       <transformers>
-           <transforme implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>HelloTeste</mainClass>
-                                </transformer>
-                            </transformers>
-      <serverId>nexus</serverId>
-      <nexusUrl>http://localhost:8081/</nexusUrl>
-      <skipStaging>true</skipStaging>
-   </configuration>
-</plugin> 
+        
+        
+        
+        
+        
+        
+        
     </build>
     <distributionManagement>
         <repository>
@@ -45,7 +31,7 @@
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Releases Snapshot</name>
-            <url>http://localhost:8081/repository/SAMPLE-SNAP/ </url>            
+            <url>http://localhost:8081/repository/SAMPLE-SNAP/</url>            
         </snapshotRepository>
     </distributionManagement>
 </project>
